@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ManDangKy">
+
+    <TextView
+        android:text="Đăng ký"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textColor="#FFC107"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:drawableRight="@drawable/ic_baseline_account_box_24"
+        android:layout_marginTop="50dp"
+        android:id="@+id/edt_taikhoanDK"
+        android:hint="Tài khoản"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:drawableRight="@drawable/ic_password"
+        android:layout_marginTop="20dp"
+        android:id="@+id/edt_matkhauDK"
+        android:hint="Mật khẩu"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:drawableRight="@drawable/ic_baseline_email_24"
+        android:layout_marginTop="20dp"
+        android:id="@+id/edt_emailDK"
+        android:hint="Email"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_confirmDangky"
+        android:text="Đăng ký"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_huy"
+        android:text="Huỷ"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
